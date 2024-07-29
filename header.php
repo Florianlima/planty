@@ -11,9 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-$viewport_content = apply_filters( 'hello_elementor_viewport_content', 'width=device-width, initial-scale=1' );
-$enable_skip_link = apply_filters( 'hello_elementor_enable_skip_link', true );
-$skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -26,10 +24,11 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<?php
+	<?php
    wp_nav_menu(array(
       'theme_location'  => 'Menu Principal', 
-      'menu_class'      => 'navigation-menu', // ajout css pour personnaliser par la suite
+      'menu_class'      => 'Menu Principal', // ajout css pour personnaliser par la suite
+	  'container' => false ,
    ));
-?>
+?>		
 </body>
