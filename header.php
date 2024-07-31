@@ -24,11 +24,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<?php
-   wp_nav_menu(array(
-      'theme_location'  => 'Menu Principal', 
-      'menu_class'      => 'Menu Principal', // ajout css pour personnaliser par la suite
-	  'container' => false ,
-   ));
-?>		
+	
 </body>
