@@ -12,12 +12,13 @@ function theme_enqueue_styles()
 
 
 
-add_filter('wp_nav_menu_items', 'add_admin_link', 10, 3);
 
 function add_admin_link($items, $args)
 {
-    if (is_user_logged_in() && $args->theme_location == 'Nous rencontrer') {
-        $items .= '<li class="admin"><a href="' . get_admin_url() . '">Admin</a></li>';
+    
+    if (is_user_logged_in() && $args-> menu == 'nous-rencontrer') {
+        $items .= '<li class="admin menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu" ><a href="' . get_admin_url() . '"class="hfe-menu-item">Admin</a></li>';
     }
-    return $items; return $args ;
+    return $items;
 }
+add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
