@@ -123,7 +123,7 @@ label {
 }
 
 @media (max-width: 1024px) {
-    form-container2 {
+    .form-container2 {
         padding: 15px;
     }
 }
@@ -137,6 +137,9 @@ label {
  
    width: 100%;
     }
+    .form-section{
+        width: 100%;
+    }
 }
 
 /* Styles pour les très petits écrans */
@@ -144,19 +147,24 @@ label {
     .form-container2 {
         padding: 5px;
         display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
     width: 100%;
     }
+    .form-section{
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 320px) {
    .form-container2 {
         padding: 5px;
         display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     width: 100%;
+    }
+    .form-section{
+        width: 100%;
     }
 }
 
@@ -165,3 +173,4 @@ label {
     width: 198px;
     height: 55px;
 }
+
