@@ -140,6 +140,17 @@ label {
     .form-section{
         width: 100%;
     }
+    .grille-gouts{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .img {
+        flex-direction: column; 
+        width: 100%;
+        align-items: center;
+        
+    }
+
 }
 
 /* Styles pour les très petits écrans */
@@ -153,6 +164,16 @@ label {
     .form-section{
         width: 100%;
     }
+    .grille-gouts{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .img {
+        flex-direction: column; 
+        width: 100%;
+        align-items: center;
+    }
+
 
 }
 
@@ -166,6 +187,16 @@ label {
     .form-section{
         width: 100%;
     }
+    .grille-gouts{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .img {
+        flex-direction: column; 
+        width: 100%;
+        align-items: center;
+    }
+
 }
 
 
