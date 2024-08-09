@@ -126,6 +126,12 @@ label {
     .form-container2 {
         padding: 15px;
     }
+    .img {
+        flex-direction: column; 
+        width: 100%;
+        align-items: center;
+        
+    }
 }
 
 /* Styles pour les petits écrans */
@@ -148,7 +154,7 @@ label {
         flex-direction: column; 
         width: 100%;
         align-items: center;
-        
+
     }
 
 }
