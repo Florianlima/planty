@@ -140,7 +140,8 @@ label {
         padding-right: 280px;
         padding-left: 0px;
         align-items: center;
-        
+        text-align: center;
+        white-space: nowrap;
     }
     
 }
