@@ -37,7 +37,7 @@ body {
     border: none;
     border-radius: 7px;
     max-width: 800px;
-    
+
 }
 
 .wpcf7-form textarea {
@@ -48,7 +48,7 @@ body {
     border: none;
     border-radius: 7px;
     max-width: 800px;
-    
+
 }
 
 .wpcf7-form input[type="submit"] {
@@ -65,7 +65,7 @@ body {
     color: #ffff;
     display: block;
     margin: 20px auto;
-   
+
 }
 
 .wpcf7-form input[type="submit"]:hover {
@@ -126,11 +126,12 @@ label {
     .form-container2 {
         padding: 15px;
     }
+
     .img {
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         align-items: center;
-        
+
     }
 }
 
@@ -139,19 +140,21 @@ label {
     .form-container2 {
         padding: 10px;
         display: flex;
-    flex-direction: column;
- 
-   width: 100%;
-    }
-    .form-section{
+        flex-direction: column;
         width: 100%;
     }
-    .grille-gouts{
-        flex-direction: column; 
+
+    .form-section {
         width: 100%;
     }
+
+    .grille-gouts {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .img {
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         align-items: center;
 
@@ -164,18 +167,21 @@ label {
     .form-container2 {
         padding: 5px;
         display: flex;
-    flex-direction: column;   
-    width: 100%;
-    }
-    .form-section{
+        flex-direction: column;
         width: 100%;
     }
-    .grille-gouts{
-        flex-direction: column; 
+
+    .form-section {
         width: 100%;
     }
+
+    .grille-gouts {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .img {
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         align-items: center;
     }
@@ -184,21 +190,24 @@ label {
 }
 
 @media (max-width: 320px) {
-   .form-container2 {
+    .form-container2 {
         padding: 5px;
         display: flex;
-    flex-direction: column;    
-    width: 100%;
-    }
-    .form-section{
+        flex-direction: column;
         width: 100%;
     }
-    .grille-gouts{
-        flex-direction: column; 
+
+    .form-section {
         width: 100%;
     }
+
+    .grille-gouts {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .img {
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         align-items: center;
     }
@@ -210,4 +219,3 @@ label {
     width: 198px;
     height: 55px;
 }
-
