@@ -133,6 +133,16 @@ label {
         align-items: center;
 
     }
+    .hfe-nav-menu__layout-horizontal .hfe-nav-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-right: 280px;
+        padding-left: 0px;
+        align-items: center;
+        
+    }
+    
 }
 
 /* Styles pour les petits écrans */
@@ -159,7 +169,7 @@ label {
         align-items: center;
 
     }
-
+   
 }
 
 /* Styles pour les très petits écrans */
